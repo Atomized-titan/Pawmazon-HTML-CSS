@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+    <title>Pawmazon</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- --------------------------------------------------NAVBAR-SECTION-----------------------------------------------------  -->
+        <div class="header">
+            <div class="logo">
+                <h1>Pawmazon</h1>
+            </div>
+            <div class="nav">
+                <ul class="nav-ul">
+                    <li><a href="index.html" style="color: #FE8B0C">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown">
+                                Category
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Dogs</a></li>
+                                <li><a class="dropdown-item" href="#">Cats</a></li>
+                                <li><a class="dropdown-item" href="#">Other small animals</a></li>
+                                <li><a class="dropdown-item" href="#">Products</a></li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li><a href="login.html">Shop</a></li>
+                </ul>
+            </div>
+            <div class="cart-login">
+                <div class="cart">
+                    <i class="fas fa-cart-arrow-down"></i>
+                </div>
+                <div class="login-container">
+                    <button class="login-btn">
+                        <a href="login.html">Login</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------------------HERO-BANNER-SECTION------------------------------------------------------->
+        <div class="hero-banner">
+            <div class="hero-banner-text">
+                <h1 class="">We Have Everything Your Pets Need</h1>
+                <p>The care you give all the differnce for lifelong health and happiness</p>
+                <div class="shopnow-container">
+                    <button class="shopnow-btn">
+                        <a href="login.html">Shop Now</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------------------CATEGORY-SECTION------------------------------------------------------->
+        <div class="category">
+            <h1 class="category-text">Category</h1>
+            <main class="min-h-fit text-white flex justify-center ">
+                <div class="grid grid-cols-1">
+                    <div class="flex items-end my-4 text-xl tracking-widest uppercase text-gray-700 text-extrabold">
+                        <div class="myBtnContainer mx-auto uppercasepx-2">
+                            <button class="filterButton py-2 px-1 hover:text-black text-white uppercase">All</button>
+                            <button class="filterButton hover:text-black py-2 px-1 uppercase">Persons</button>
+                            <button class="filterButton hover:text-black py-2 px-1 uppercase">Animals</button>
+                            <button class="filterButton hover:text-black py-2 px-1 uppercase">Fruits</button>
+                        </div>
+                    </div>
+                    <div class="container swiper-container h-96">
+                        <div class="swiper-wrapper h-96">
+                            <div class="swiper-slide animals">
+                                <div class="h-full flex w-full flex-col justify-center">
+                                    <div class="h-full bg-cover bg-center flex flex-col justify-end items-center p-4 opacity-75 hover:opacity-100"
+                                        style="background-image:url(https://source.unsplash.com/random/?animal,butterfly)">
+                                        <div class="text-center bg-white py-2 w-full opacity-75">
+                                            <h2 class="text-xl text-black font-bold">Butterfly</h2>
+                                            <p class="text-base text-gray-900 font-normal">Random Animal from Unsplash
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide animals">
+                                <div class="h-full flex flex-col justify-center">
+                                    <div class="h-full w-full bg-cover bg-center flex flex-col justify-end items-center p-4 opacity-75 hover:opacity-100"
+                                        style="background-image:url(https://source.unsplash.com/random/?animal,dragonfly)">
+                                        <div class="text-center bg-white py-2 w-full opacity-75">
+                                            <h2 class="text-xl text-black font-bold">Dragonfly</h2>
+                                            <p class="text-base text-gray-900 font-normal">Random Animal from Unsplash
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide animals">
+                                <div class="h-full flex flex-col justify-center items-center">
+                                    <div class="h-full w-full bg-cover bg-center flex flex-col justify-end items-center p-4 opacity-75 hover:opacity-100"
+                                        style="background-image:url(https://source.unsplash.com/random/?animal,spider)">
+                                        <div class="text-center bg-white py-2 w-full opacity-75">
+                                            <h2 class="text-xl text-black font-bold">Spider</h2>
+                                            <p class="text-base text-gray-900 font-normal">Random animal from Unsplash
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide persons">
+                                <div class="h-full flex flex-col justify-center opacity-75 hover:opacity-100">
+                                    <div class="rounded-lg h-full w-full bg-cover bg-center justify-end flex flex-col justify-end items-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?man)">
+                                        <div class="text-center bg-white opacity-75 py-2 w-full rounded-lg">
+                                            <h2 class="text-xl text-black font-bold mb-1">Man</h2>
+                                            <p class="text-base text-gray-900 font-normal">Random Person from Unsplash
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide persons">
+                                <div class="h-full flex flex-col justify-center opacity-75 hover:opacity-100">
+                                    <div class="rounded-lg h-full w-full bg-cover bg-center justify-end flex flex-col justify-end items-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?woman)">
+                                        <div class="text-center bg-white opacity-75 py-2 w-full rounded-lg">
+                                            <h2 class="text-xl text-black font-bold mb-1">Woman</h2>
+                                            <p class="text-base text-gray-900 font-normal">Random Person from Unsplash
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide persons">
+                                <div class="h-full flex flex-col justify-center opacity-75 hover:opacity-100">
+                                    <div class="rounded-lg h-full w-full bg-cover bg-center justify-end flex flex-col justify-end items-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?kid)">
+                                        <div class="text-center bg-white opacity-75 py-2 w-full rounded-lg">
+                                            <h2 class="text-xl text-black font-bold mb-1">Kid</h2>
+                                            <p class="text-base text-gray-900 font-normal">Random Person from Unsplash
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide fruits">
+                                <div class="w-full overflow-hidden flex flex-col justify-center items-center">
+                                    <div class="h-64 w-full opacity-75 hover:opacity-100 z-0 bg-cover bg-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?Ananas)">
+                                        <!--                             <img class="object-center object-cover h-full w-full rounded-md" src="https://source.unsplash.com/random/?Ananas"> -->
+                                    </div>
+                                    <div class="text-center py-2 w-full">
+                                        <h2 class="text-xl text-white font-bold mb-1 ">Ananas</h2>
+                                        <p class="text-base text-gray-400 font-normal">Random fruit from Unsplash</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide fruits">
+                                <div class="w-full overflow-hidden flex flex-col justify-center items-center">
+                                    <div class="h-64 w-full opacity-75 hover:opacity-100 z-0 bg-cover bg-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?Banana)">
+                                        <!--                             <img class="object-center object-cover h-full w-full rounded-md" src="https://source.unsplash.com/random/?Ananas"> -->
+                                    </div>
+                                    <div class="text-center py-2 w-full">
+                                        <h2 class="text-xl text-white font-bold mb-1 ">Banana</h2>
+                                        <p class="text-base text-gray-400 font-normal">Random fruit from Unsplash</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide fruits">
+                                <div class="w-full overflow-hidden flex flex-col justify-center items-center">
+                                    <div class="h-64 w-full opacity-75 hover:opacity-100 z-0 bg-cover bg-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?Mango)">
+                                        <img class="object-center object-cover h-full w-full rounded-md"
+                                            src="https://source.unsplash.com/random/?Ananas">
+                                    </div>
+                                    <div class="text-center py-2 w-full">
+                                        <h2 class="text-xl text-white font-bold mb-1 ">Mango</h2>
+                                        <p class="text-base text-gray-400 font-normal">Random fruit from Unsplash</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- next / prev arrows -->
+                        <div class="swiper-button-next swiper-button-white"></div>
+                        <div class="swiper-button-prev swiper-button-white"></div>
+                        <!-- !next / prev arrows -->
+                    </div>
+            </main>
+        </div>
+        <div class="h-40 w-full">
+            hello
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
