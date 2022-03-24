@@ -1,0 +1,37 @@
+    <div class="swiper-slide fruits">
+                                <div class="w-full overflow-hidden flex flex-col justify-center items-center">
+                                    <div class="h-64 w-full opacity-75 hover:opacity-100 z-0 bg-cover bg-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?Ananas)">
+                                        <!--                             <img class="object-center object-cover h-full w-full rounded-md" src="https://source.unsplash.com/random/?Ananas"> -->
+                                    </div>
+                                    <div class="text-center py-2 w-full">
+                                        <h2 class="text-xl text-white font-bold mb-1 ">Ananas</h2>
+                                        <p class="text-base text-gray-400 font-normal">Random fruit from Unsplash</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide fruits">
+                                <div class="w-full overflow-hidden flex flex-col justify-center items-center">
+                                    <div class="h-64 w-full opacity-75 hover:opacity-100 z-0 bg-cover bg-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?Banana)">
+                                        <!--                             <img class="object-center object-cover h-full w-full rounded-md" src="https://source.unsplash.com/random/?Ananas"> -->
+                                    </div>
+                                    <div class="text-center py-2 w-full">
+                                        <h2 class="text-xl text-white font-bold mb-1 ">Banana</h2>
+                                        <p class="text-base text-gray-400 font-normal">Random fruit from Unsplash</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide fruits">
+                                <div class="w-full overflow-hidden flex flex-col justify-center items-center">
+                                    <div class="h-64 w-full opacity-75 hover:opacity-100 z-0 bg-cover bg-center"
+                                        style="background-image:url(https://source.unsplash.com/random/?Mango)">
+                                        <img class="object-center object-cover h-full w-full rounded-md"
+                                            src="https://source.unsplash.com/random/?Ananas">
+                                    </div>
+                                    <div class="text-center py-2 w-full">
+                                        <h2 class="text-xl text-white font-bold mb-1 ">Mango</h2>
+                                        <p class="text-base text-gray-400 font-normal">Random fruit from Unsplash</p>
+                                    </div>
+                                </div>
+                            </div>

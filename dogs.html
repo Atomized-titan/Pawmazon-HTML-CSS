@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/dogs.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <h1> <a href="./index.html">Pawmazon</a></h1>
+            </div>
+            <div class="nav">
+                <ul class="nav-ul">
+                    <li><a href="index.html" style="color: #FE8B0C">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown">
+                                Category
+                            </button>
+                           
+                        </div>
+
+                    </li>
+                    <li><a href="login.html">Shop</a></li>
+                </ul>
+            </div>
+            <div class="cart-login">
+                <div class="cart">
+                    <a href="./index-checkout.html"><i class="fas fa-cart-arrow-down"></i> CART</a>
+                </div>
+                <div class="login-container">
+                    <button class="login-btn">
+                        <a href="login.html">Login</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------------------CATEGORY-SECTION------------------------------------------------------- -->
+        <div class="card-wrapper">
+            <div class="card">
+                <!-- card left -->
+                <div class="product-imgs">
+                    <div class="img-display">
+                        <div class="img-showcase">
+                            <img src="https://images.unsplash.com/photo-1591160690555-5debfba289f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                                alt="dogs image">
+                            <img src="https://images.unsplash.com/photo-1588085142763-7ae2332f959e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=747&q=80"
+                                alt="dogs image">
+                            <img src="https://images.unsplash.com/photo-1548658166-136d9f6a7e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                                alt="dogs image">
+                            <img src="https://images.unsplash.com/photo-1616427794612-6868be18e612?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80"
+                                alt="dogs image">
+                        </div>
+                    </div>
+                    <div class="img-select">
+                        <div class="img-item">
+                            <a href="#" data-id="1">
+                                <img class="h-48 w-72"
+                                    src="https://images.unsplash.com/photo-1591160690555-5debfba289f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                                    alt="dogs image">
+                            </a>
+                        </div>
+                        <div class="img-item">
+                            <a href="#" data-id="2">
+                                <img class="h-48 w-72"
+                                    src="https://images.unsplash.com/photo-1588085142763-7ae2332f959e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=747&q=80"
+                                    alt="dogs image">
+                            </a>
+                        </div>
+                        <div class="img-item">
+                            <a href="#" data-id="3">
+                                <img class="h-48 w-72"
+                                    src="https://images.unsplash.com/photo-1548658166-136d9f6a7e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                                    alt="dogs image">
+                            </a>
+                        </div>
+                        <div class="img-item">
+                            <a href="#" data-id="4">
+                                <img class="h-48 w-72"
+                                    src="https://images.unsplash.com/photo-1616427794612-6868be18e612?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80"
+                                    alt="dogs image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card right -->
+                <div class="product-content">
+                    <h2 class="product-title">Dogs to adopt</h2>
+                    <a href="#" class="product-link">visit Adoption store</a>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>4.7(21)</span>
+                    </div>
+
+                    <div class="product-price">
+                        <p class="last-price">Old Price: <span>$257.00</span></p>
+                        <p class="new-price">New Price: <span>$249.00 (5%)</span></p>
+                    </div>
+
+                    <div class="product-detail">
+                        <h2>about this item: </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga
+                            tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi
+                            ipsa!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius.
+                            Dignissimos, labore suscipit. Unde.</p>
+                        <ul>
+                            <li>Color: <span>Black</span></li>
+                            <li>Available: <span>in stock</span></li>
+                            <li>Category: <span>Puppies</span></li>
+                            <li>Shipping Area: <span>All over the world</span></li>
+                            <li>Shipping Fee: <span>Free</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="purchase-info">
+                        <input type="number" min="0" value="1">
+                        <button type="button" class="btn">
+                            Add to Cart <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button type="button" class="btn">Compare</button>
+                    </div>
+
+                    <div class="social-links">
+                        <p>Share At: </p>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="contact">
+        <ul>
+            <div id="icon-container">
+                <a href="#">
+                    <div class="icon">
+                        <li><i class="fab fa-twitter"></i></li>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <li><i class="fab fa-instagram"></i></li>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <li><i class="far fa-envelope"></i></li>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="icon">
+                        <li><i class="fab fa-free-code-camp"></i></li>
+                    </div>
+                </a>
+            </div>
+        </ul>
+        <p>&copy; 2022, Pawmazon</p>
+    </footer>
+    <script src="./scripts/dogs.js"></script>
+</body>
+
+</html>
